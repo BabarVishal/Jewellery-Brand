@@ -135,7 +135,7 @@ height: 100%;
 #Golds{
     width: 100%;
     height: 50%;
-    margin-top: 150px;
+    margin-top: 50px;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
@@ -190,3 +190,95 @@ height: 100%;
 
 
 
+/* its a responsive code ........... */
+
+
+
+
+
+
+/* Media queries for responsiveness */
+
+@media screen and (max-width: 768px) {
+    .main{
+        width: 100%;
+        height: 100%;
+    }
+.logo h1{
+    font-size: 30px;
+    margin-left: 30px;
+}
+    .navbar{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    
+    .About{
+        display: none;
+    }
+    .Home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -5px;
+        font-size: 20px;
+    }
+
+
+
+    .divece{
+        margin: 0px 20px;
+    }
+    .divece span{
+        font-size: 25px;
+        
+    }
+
+    #luxury{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box h1{
+        font-size: 30px;
+    }
+
+    .box p{
+        font-size: 15px;
+    }
+
+    .left{
+        width: 100%;
+        margin-top: 30px;
+       
+    }
+
+    #Golds{
+        display: flex;
+        flex-direction: column;
+        margin-top: 940px;
+    }
+
+
+
+    .todo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    .todo h1{
+       margin-top: 100px;
+        margin-left: 30px;
+    }
+
+    #Hiden{
+        display: flex;
+        flex-direction: column;
+        margin-top: 900px;
+    }
+
+
+}
